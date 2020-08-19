@@ -1,0 +1,420 @@
+body{
+	background-color:#000000;
+	margin:0px auto;
+	font-family:'Roboto', sans-serif;
+	justify-content: center;
+}
+
+nav{	
+	height:80px;
+	background-color: rgba(0,0,0,.8);
+	position:fixed;
+	width:100%;	
+	display:flex;
+	z-index: 20;
+}
+
+nav a{
+	color:#ffffff;
+	text-decoration: none;
+	font-size:19px;
+	font-weight:700;
+	padding:28px 6px 28px 6px;
+	display: inline-block;
+	cursor:pointer;
+}
+
+.heading{
+	font-size:35px;
+	font-weight:700;
+	padding-top:20px;
+	padding-bottom:25px;
+	margin-right:260px;
+}
+
+/* Dont add anything else to inner*/
+
+.inner{
+	width:1000px;
+	margin:0px auto;
+}
+
+nav a:hover{
+	background-color:#F0CE30;
+	color:#000000;
+}
+.clicked{
+	background-color:#F0CE30;
+	color:#000000;
+}
+section{
+	margin-top:-80px;
+	padding-top: 80px;
+}
+.lower{
+	margin-top:80px;
+}
+
+#home{
+	background:url(images/bg_one.jpg) center top;
+	font-size:80px;
+	height:1030px;
+	font-weight:900;
+	width:100%;	
+	display:flex;
+	position: relative;
+}
+.word{
+	left:220px;
+	top:340px;
+	position: absolute;
+}
+.bold{
+	color: #ffffff; 
+}
+.creative{
+	color: #E755D1; 
+}
+.different{
+	color: #000000; 
+	background-color: #F0CE30;
+	padding:0px 5px 0px 5px;
+}
+
+#about{
+	background:url(images/bg_two.jpg) center top;
+	height:1050px;
+	width:100%;	
+	display:flex;
+	position:relative;
+}
+.aboutus{
+	position: absolute;
+	top:200px;
+	left:220px;
+	font-size:70px;
+	font-weight: 900;
+}
+.mainheading{
+	font-size: 80px;
+	font-weight: 900;
+}
+.slash {
+	font-size: 90px;
+	font-weight: 900;
+}
+.text{
+	margin-top: 65px;
+}
+.experience {
+	font-size:22px;
+	font-weight: 900;
+}
+.lslash{
+	font-size:22px;
+	font-weight: 900;
+}
+.detail{
+	font-size:20px;
+	font-weight:700;
+	color: #d4d4d4;
+	width: 485px;
+	line-height: 30px;
+}
+.column{
+	width:425px;
+	height:680px;
+	position: absolute;
+	left:795px;
+	top:200px;
+	background-color:rgba(0,0,0,.5);
+}
+.column:hover{
+	box-shadow:0px 0px 100px rgba(0,0,0,1);
+}
+.item{
+	margin-top:50px;
+	padding:100px 0px 0px 18px;
+	margin-left: 20px;
+	display: block;
+	position: relative;
+}
+.item:hover{
+	text-shadow:0px 0px 30px rgba(243,211,0,1);
+}
+.text:hover{
+	text-shadow: 1px 1px 5px rgba(0,0,0,1);
+}
+.icon{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.title{
+	color:#F1CF30;
+	font-size:28px;
+	font-weight:900;
+	position: absolute;
+	top:-4px;
+	left:95px;
+	width:50px;
+	line-height: 28px;
+}
+.description{
+	position: absolute;
+	color:#ffffff;
+	font-size:16px;
+	font-weight: 400;
+	top:60px;
+	left:95px;
+	width:280px;
+	line-height: 20px;
+}
+
+#team{
+	background:url(images/bg_three.jpg) center top;
+	position: relative;
+	width:100%;	
+	height:1240px;
+}
+.ourteam{
+	position:absolute;
+	top:160px;
+	left:220px;
+	font-size:70px;
+	font-weight: 900;
+	line-height: 70px;
+}
+.boss{
+	position: absolute;
+	top:160px;
+	left: 815px;
+}
+.big{
+	position:relative;
+	margin-bottom:20px;
+}
+.big:hover{
+	box-shadow:0px 0px 30px rgba(255,255,255,0.5);
+}
+.name{
+	color: #ffffff;	
+	font-weight:700;
+	font-size:30px;
+	background-color: rgba(132,0,88,.7);	
+	padding:5px 0px 5px 10px;
+	position:absolute;
+	bottom: 0px;
+	width:395px;
+}
+.jobtitle{
+	color: #F3D300;	
+	font-weight:400;
+	font-size:20px;
+}
+
+.manager{
+	position: absolute;
+	left:220px;
+	top:385px;
+	display: flex;
+	flex-direction: column;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+}
+.small{
+	margin:100px 20px 0px 0px;
+}
+
+.mname{
+	color:#ffffff;
+	padding-top:15px;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.small img:hover{
+	box-shadow:0px 0px 30px rgba(255,255,255,0.5);
+}
+.mname:hover{
+	text-shadow:0px 0px 30px rgba(255,255,255,0.5);
+}
+.mjobtitle{
+	color:#E754CB;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#blog{
+	background:url(images/bg_four.jpg) center top;
+	height:1775px;
+	width:100%;	
+	position: relative;
+}
+.blogheading{
+	position: absolute;
+	top:165px;
+	left:220px;
+}
+.blogname{
+	font-size:80px;
+	font-weight: 900;
+}
+.blognames{
+	font-size: 80px;
+	font-weight: 700;
+	line-height: 50px;
+}
+.blogstory{
+	position: relative;
+	top:305px;
+	left:220px;
+	width: 1000px;
+}
+.storyleft{
+	position:relative;
+	display: flex;
+	margin-bottom: 30px;
+}
+.storyright{
+	position:relative;
+	display: flex;
+	margin-bottom: 30px;
+}
+.storyleft:hover{
+	background-color: #111111;
+	box-shadow:0px 0px 40px rgba(255,255,255,0.5);
+}
+.storyright:hover{
+	background-color: #111111;
+	box-shadow:0px 0px 40px rgba(255,255,255,0.5);
+}
+.photo{
+	position: relative;
+}
+.labelleft{
+	color:#F4D100;
+	font-size:48px;
+	font-weight: 900;
+	position: absolute;
+	bottom: 0px;
+	right:0px;
+	padding:17px 14px 16px 20px;
+	border-radius:15px 0px 0px 0px;
+	background-color: rgba(0,0,0,.8);
+}
+.labelright{
+	color:#F4D100;
+	font-size:48px;
+	font-weight: 900;
+	position: absolute;
+	bottom: 0px;
+	left:0px;
+	padding:17px 20px 16px 14px;
+	border-radius:0px 15px 0px 0px;
+	background-color: rgba(0,0,0,.7);
+}
+.bloginfoleft{
+	margin-left:20px;
+}
+.bloginforight{
+	margin-right:20px;
+}
+.blogtitle{
+	padding-top:15px;
+	color:#F3D300;
+	font-size:30px;
+	font-weight: 900;
+	line-height: 30px;
+}
+.blogtext{
+	padding-top: 15px;
+	color:#ffffff;
+	font-size:18px;
+	font-weight: 400;
+	line-height: 25px
+}
+.authortime{
+	padding-top: 15px;
+	color:#c0c0c0;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+#testimonials{
+	background:url(images/bg_five.jpg) center top;
+	height:1400px;
+	position: relative;
+	display: flex;
+}
+.testimonialsheading{
+	position: absolute;
+	top:140px;
+	left:420px;
+}
+.six{
+	position: relative;
+	left:220px;
+	top:200px;
+}
+.three{
+	display: flex;
+	flex-direction:row;
+}
+.people{
+	margin:0px 20px 40px 0px;
+}
+.people:hover{
+	transform: scale(1.1);
+
+}
+.saying{
+	width: 300px;
+	height: 105px;
+	font-size: 23px;
+	font-weight: 700;
+	color:#ffffff;
+	padding:15px 0px 0px 20px;
+}
+
+.nameandorg{
+	height:35px;
+	color:#ffffff;
+	padding:15px 0px 0px 20px;
+}
+.blue{background-color: #2A6BFF;}
+.pink{background-color: #FF00CF;}
+.green{background-color: #5EAA0C;}
+.purple{background-color: #7C009F;}
+.red{background-color:#E00000;}
+.tiffany{background-color:#00B58D;}
+.black{background-color: #000000;}
+
+
+#contact{
+	background:url(images/bg_six.jpg) center top;
+	height:610px;
+	color: #ffffff;
+	position: relative;
+}
+.info{
+	position:absolute;
+	top:205px;
+	left:220px;
+}
+.contactus{
+	font-size: 40px;
+	font-weight: 900;
+}
+.address{
+	padding-top: 15px;
+	font-size: 20px;
+	font-weight: 400;
+}
+.email{
+	font-size: 20px;
+	font-weight: 400;
+	padding-top:20px;
+}
